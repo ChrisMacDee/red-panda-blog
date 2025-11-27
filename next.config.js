@@ -4,9 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export (GitHub Pages doesn't optimize images)
   },
-  reactCompiler: true
+  reactCompiler: true,
   // If deploying to https://<username>.github.io/<repo-name>/
-  // basePath: '/<repo-name>', 
+  basePath: '/red-panda-blog', 
 };
 
 export default nextConfig;
