@@ -1,6 +1,3 @@
-import type { NextConfig } from "next";
-
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',  // Outputs static HTML/CSS/JS
